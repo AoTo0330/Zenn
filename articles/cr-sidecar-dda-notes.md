@@ -1,8 +1,10 @@
+---
 title: "Cloud Run に Datadog Agent をサイドカーでデプロイする際の注意点" # 記事のタイトル
 emoji: "🐶" # アイキャッチとして使われる絵文字（1文字だけ）
 type: "tech" # tech: 技術記事 / idea: アイデア記事
 topics: ["gcp", "cloudrun", "googlecloud", "datadog"] # タグ。["markdown", "rust", "aws"]のように指定する
 published: false # 公開設定（falseにすると下書き）
+---
 
 # TL;DR
 この記事は [Cloud Run のサイドカーデプロイ](https://cloud.google.com/run/docs/deploying?hl=en#sidecars)を利用して Datadog Agent をデプロイする際の注意点をまとめたものです。
