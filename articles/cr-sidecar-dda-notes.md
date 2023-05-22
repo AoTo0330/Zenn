@@ -9,7 +9,7 @@ published: true # 公開設定（falseにすると下書き）
 # TL;DR
 この記事は [Cloud Run のサイドカーデプロイ](https://cloud.google.com/run/docs/deploying?hl=en#sidecars)を利用して Datadog Agent をデプロイする際の注意点をまとめたものです。
 
-デプロイの際の手順やサイドカーデプロイの活用方法については、「[Cloud Run で Datadog Agent をサイドカーとして動かす](https://qiita.com/AoTo0330/private/35a840462f219596e39d)」でまとめています。
+デプロイの際の手順やサイドカーデプロイの活用方法については、「[Cloud Run で Datadog Agent をサイドカーとして動かす]([https://qiita.com/AoTo0330/private/35a840462f219596e39d](https://qiita.com/AoTo0330/items/35a840462f219596e39d))」でまとめています。
 
 :::message
 2023/5/21 時点の情報を基に作成しています。各プラットフォームのアップデートにより、いくつかの点は変更される可能性があります。
