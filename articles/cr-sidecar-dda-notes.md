@@ -18,6 +18,7 @@ published: true # 公開設定（falseにすると下書き）
 # イメージをビルドする際
 ## アプリケーションの Dockerfile
 アプリケーションの Dockerfile には、言語に応じたトレーサーとそれに必要な環境変数を定義する必要があります。
+この時、デフォルトの`localhost`で動作するため`DD_AGENT_HOST`を設定する必要はありません。
 
 Python アプリケーションを例にとると、`ENV` で [Datadog の標準タグ](https://docs.datadoghq.com/ja/getting_started/tagging/#統合サービスタグ付け)に基づいたタグを環境変数に定義し、`RUN`で`requirements.txt`に記載された dd-tracer をインストールした上で、`CMD`で明示的にトレーサーを起動します。
 
